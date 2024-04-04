@@ -18,12 +18,12 @@ IPKitty is a Python script that automates IP address changes using the Tor netwo
 
 ### Installation
 
-**Clone the repository:**
+Clone the repository:
    
    ```bash
    git clone https://github.com/pwnkitty/ipkitty
    ```
-**Navigate to the directory**
+Navigate to the directory
 
   ```bash
   cd ipkitty
