@@ -2,7 +2,7 @@
 
 IPKitty2 is a Python script that allows you to change your IP address using Tor. It automates the process of switching IP addresses at specified intervals.
 
-## Prerequisites
+## Requirements
 
 Before using IPKitty2, ensure that you have Python 3 and pip installed on your system. Additionally, you need to have Tor installed and running.
 
