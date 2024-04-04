@@ -11,7 +11,7 @@ Before using IPKitty2, ensure that you have Python 3 and pip installed on your s
 Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/pwnkitty/ipkitty2.git
+   git clone https://github.com/pwnkitty/ipkitty2
    ```
 
 Navigate to the repository directory:
@@ -22,7 +22,7 @@ cd ipkitty2
 Run the installation script to install IPKitty2:
 
 ```bash
-python3 install.py
+sudo python3 install.py
 ```
 
 Follow the on-screen instructions to complete the installation.
@@ -52,7 +52,7 @@ Open a terminal.
 Run the following command:
 
 ```bash
-python3 install.py
+sudo python3 install.py
 ```
 
 Choose the option to uninstall (press N or n).
