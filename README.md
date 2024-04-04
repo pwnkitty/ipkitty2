@@ -49,4 +49,66 @@ For Termux (Android):
  ```bash
 pkg install python
  ```
+### Usage
+Run the script:
+
+```bash
+python3 ipkitty.py
+```
+Follow the on-screen prompts to set the interval for IP changes.
+
+### Usage Examples
+Linux:
+
+```bash
+python3 ipkitty.py
+```
+
+Termux (Android):
+
+```bash
+pkg install git python
+```
+```bash
+git clone https://github.com/pwnkitty/ipkitty
+```
+```bash
+cd ipkitty
+```
+```bash
+python3 ipkitty.py
+```
+
+### Debian/Ubuntu:
+
+```bash
+sudo apt-get install git python3
+```
+```bash
+git clone https://github.com/pwnkitty/ipkitty
+```
+```bash
+cd ipkitty
+```
+```bash
+python3 ipkitty.py
+```
+
+### Arch Linux:
+
+```bash
+sudo pacman -S git python
+```
+```bash
+git clone https://github.com/pwnkitty/ipkitty
+```
+```bash
+cd ipkitty
+```
+```bash
+python3 ipkitty.py
+```
+
+### Credits
+@pwnkitty - Original creator <3
 
