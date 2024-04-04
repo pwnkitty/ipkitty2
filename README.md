@@ -1,60 +1,50 @@
-# IPKitty2
+# ipkitty
+Auto IP Changer with Tor Service
 
-IPKitty2 is a Python script that allows you to change your IP address using Tor. It automates the process of switching IP addresses at specified intervals.
+## IPKitty
 
----
+IPKitty is a Python script that automates IP address changes using the Tor network via SOCKS5 proxy. It also includes a built-in checker to verify the status of the Tor service.
 
-## Prerequisites
+## Auto IP Changer with Tor Service Checker
 
-Before using IPKitty2, ensure that you have Python 3 and pip installed on your system. Additionally, you need to have Tor installed and running.
+### Features
+- Automatic IP address changing using Tor network.
+- Built-in checker to verify Tor service status.
+- Easy-to-use Python script.
 
----
+### Requirements
+- Python 3
+- Tor service
 
-## Installation
+### Installation
 
-1. **Clone this repository to your local machine:**
-
+**Clone the repository:**
+   
    ```bash
-   git clone https://github.com/pwnkitty/ipkitty2.git
-Navigate to the repository directory:
+   git clone https://github.com/pwnkitty/ipkitty
+   ```
+**Navigate to the directory**
+
+  ```bash
+  cd ipkitty
+  ```
+Install dependencies:
+
+Make sure you have Python 3 installed. If not, install it using your package manager:
+
+For Debian/Ubuntu:
 
 bash
 Copy code
-cd ipkitty2
-Run the installation script to install IPKitty2:
+sudo apt-get install python3
+For Arch Linux:
 
 bash
 Copy code
-python3 install.py
-Follow the on-screen instructions to complete the installation.
-
-Usage
-Once installed, you can use IPKitty2 to change your IP address.
-
-Open a terminal.
-
-Run the following command to start IPKitty2:
+sudo pacman -S python
+For Termux (Android):
 
 bash
 Copy code
-ipkitty2
-Follow the prompts to specify the interval for changing your IP address and the number of times you want to change it.
+pkg install python
 
-IPKitty2 will handle the rest, automatically changing your IP address at the specified intervals.
-
-Uninstallation
-To uninstall IPKitty2:
-
-Open a terminal.
-
-Run the following command:
-
-bash
-Copy code
-python3 install.py
-Choose the option to uninstall (press N or n).
-
-Follow the on-screen instructions to complete the uninstallation process.
-
-Credits
-IPKitty2 was created by PwnKitty.
