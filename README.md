@@ -1,114 +1,64 @@
-# ipkitty
-Auto IP Changer with Tor Service
+# IPKitty2
 
-## IPKitty
+IPKitty2 is a Python script that allows you to change your IP address using Tor. It automates the process of switching IP addresses at specified intervals.
 
-IPKitty is a Python script that automates IP address changes using the Tor network via SOCKS5 proxy. It also includes a built-in checker to verify the status of the Tor service.
+## Prerequisites
 
-## Auto IP Changer with Tor Service Checker
+Before using IPKitty2, ensure that you have Python 3 and pip installed on your system. Additionally, you need to have Tor installed and running.
 
-### Features
-- Automatic IP address changing using Tor network.
-- Built-in checker to verify Tor service status.
-- Easy-to-use Python script.
+## Installation
 
-### Requirements
-- Python 3
-- Tor service
+Clone this repository to your local machine:
 
-### Installation
-
-Clone the repository:
-   
    ```bash
-   git clone https://github.com/pwnkitty/ipkitty
+   git clone https://github.com/pwnkitty/ipkitty2.git
    ```
-Navigate to the directory
 
-  ```bash
-  cd ipkitty
-  ```
-### Install dependencies:
+Navigate to the repository directory:
 
-Make sure you have Python 3 installed. If not, install it using your package manager
+```bash
+cd ipkitty2
+```
+Run the installation script to install IPKitty2:
 
-For Debian/Ubuntu:
+```bash
+python3 install.py
+```
 
- ```bash
-sudo apt-get install python3
- ```
+Follow the on-screen instructions to complete the installation.
 
-For Arch Linux:
-
- ```bash
-sudo pacman -S python
- ```
-
-For Termux (Android):
-
- ```bash
-pkg install python
- ```
 ### Usage
-Run the script:
+
+Once installed, you can use IPKitty2 to change your IP address.
+
+Open a terminal.
+
+Run the following command to start IPKitty2:
 
 ```bash
-python3 ipkitty.py
-```
-Follow the on-screen prompts to set the interval for IP changes.
-
-### Usage Examples
-Linux:
-
-```bash
-python3 ipkitty.py
+sudo ipkitty2
 ```
 
-Termux (Android):
+Follow the prompts to specify the interval for changing your IP address and the number of times you want to change it.
+
+IPKitty2 will handle the rest, automatically changing your IP address at the specified intervals.
+
+### Uninstallation
+
+To uninstall IPKitty2:
+
+Open a terminal.
+
+Run the following command:
 
 ```bash
-pkg install git python
-```
-```bash
-git clone https://github.com/pwnkitty/ipkitty
-```
-```bash
-cd ipkitty
-```
-```bash
-python3 ipkitty.py
+python3 install.py
 ```
 
-### Debian/Ubuntu:
+Choose the option to uninstall (press N or n).
 
-```bash
-sudo apt-get install git python3
-```
-```bash
-git clone https://github.com/pwnkitty/ipkitty
-```
-```bash
-cd ipkitty
-```
-```bash
-python3 ipkitty.py
-```
+Follow the on-screen instructions to complete the uninstallation process.
 
-### Arch Linux:
+Credits
 
-```bash
-sudo pacman -S git python
-```
-```bash
-git clone https://github.com/pwnkitty/ipkitty
-```
-```bash
-cd ipkitty
-```
-```bash
-python3 ipkitty.py
-```
-
-### Credits
-@pwnkitty - Original creator <3
-
+IPKitty2 was created by PwnKitty <3
