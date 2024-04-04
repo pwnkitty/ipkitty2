@@ -28,9 +28,9 @@ IPKitty is a Python script that automates IP address changes using the Tor netwo
   ```bash
   cd ipkitty
   ```
-Install dependencies:
+### Install dependencies:
 
-### Make sure you have Python 3 installed. If not, install it using your package manager
+Make sure you have Python 3 installed. If not, install it using your package manager
 
 For Debian/Ubuntu:
 
