@@ -29,7 +29,7 @@ Follow the on-screen instructions to complete the installation.
 
 ### Usage
 
-Once installed, you can use IPKitty2 to change your IP address.
+***Once installed, you can use IPKitty2 to change your IP address.***
 
 Open a terminal.
 
@@ -45,7 +45,7 @@ IPKitty2 will handle the rest, automatically changing your IP address at the spe
 
 ### Uninstallation
 
-To uninstall IPKitty2:
+***To uninstall IPKitty2:***
 
 Open a terminal.
 
@@ -57,7 +57,7 @@ python3 install.py
 
 Choose the option to uninstall (press N or n).
 
-Follow the on-screen instructions to complete the uninstallation process.
+***Follow the on-screen instructions to complete the uninstallation process.***
 
 Credits
 
